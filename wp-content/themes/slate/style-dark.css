@@ -1,0 +1,500 @@
+body {
+    background: #555;
+    color: #ccc;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #ddd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+hr {
+    border-bottom: 1px dotted #777;
+}
+
+blockquote p {
+    color: #fff;
+}
+
+::selection {
+        background: #fff;
+        color: #222;
+        }
+::-moz-selection {
+        background: #fff;
+        color: #222;
+}
+
+.header-right span.select {
+    background: url(images/select2.png) no-repeat center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #444;
+}    
+
+/* ===[ Header Styles ]===================================================== */
+
+.header-hidden {
+	background: #444;
+}
+
+.hidden-toggle {
+	background: url(images/plus-button-dark.png) no-repeat center center;
+}
+
+.header {
+    border-bottom: solid 1px #666;
+    border-top: solid 10px #444;
+}
+
+/* ===[ Navigation Styles ]===================================================== */
+
+#nav > .current-menu-item > a, #nav > li a:hover {
+	color: #fff;
+}
+
+#nav .sub-menu li {
+    background: #444;
+    border-left: solid 1px #555;
+    border-right: solid 1px #555;
+}
+
+#nav .sub-menu li:first-child { border-top: solid 1px #555 }
+
+#nav li ul li {
+    border-bottom: solid 1px #555;
+}
+
+#nav li ul li a:hover {
+    background: #444;
+    color: #fff;
+}
+
+/* ===[ Title Styles ]===================================================== */
+
+.intro {
+    border-top: solid 1px #666;
+    border-bottom: solid 1px #666;
+    color: #fff;
+}
+
+.page-title {
+    border-bottom: solid 1px #666;
+}
+
+.page-title a { color: #fff }
+
+.title-meta h2 a { color: #fff }
+.title-meta h2 a:hover { color: #ccc }
+
+.section-title {
+    background: url(images/title-bg2.png) repeat-x 0 20px;
+    color: #fff;
+}
+.section-title span {
+	background: #555;
+}
+
+/* ===[ Ribbon Styles ]===================================================== */
+
+.ribbon {
+    background: #ededed;
+    color: #777;
+}
+.ribbon:before,
+.ribbon:after {
+    border: 1.5em solid #ddd;
+}
+.ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+.ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+    border-color: #bbb transparent transparent transparent;
+}
+.non-semantic-protector {
+    position: relative;
+    z-index: 1;
+    background: url(images/ribbon-bg-dark.png) no-repeat 0 24px;
+}
+
+/* ===[ Services Styles ]===================================================== */
+
+.services .service-icon {
+    color: #fff;
+    background: #444;
+}
+
+.services:hover .service-icon {
+	background: #fff666;
+	color: #444;
+}
+
+.services h3 a { color: #fff }
+
+.services h3 a:hover { color: #ddd }
+
+/* ===[ Slider Styles ]===================================================== */
+
+#header-slider, .gallery-wrap, .portfolio-big-slide, .okvideo {
+	background: url(images/loading2.gif) center center no-repeat;
+	min-height: 0px;
+}
+
+.flexslider {
+	background: #555;
+}
+.flex-control-nav li a {
+    background: #777 !important;
+}
+.flex-control-nav li a:hover {
+    background: #888 !important;
+}
+.flex-control-nav li a.active {
+    background: #fff !important;
+    cursor: default;
+}
+
+.flex-direction-nav li .prev {
+    background: url(images/left2.png) no-repeat !important;
+}
+
+.flex-direction-nav li .next {
+    background: url(images/right2.png) no-repeat !important;
+}
+
+/* ===[ Portfolio Styles ]===================================================== */
+
+.post-nav a { color: #fff; }
+.post-nav a:hover { color: #ddd }
+
+.portfolio-meta h3 {
+	border-bottom: solid 1px #666;
+}
+.portfolio-meta li {
+    color: #bbb;
+}
+.portfolio-meta a {
+	color: #bbb;
+}
+.portfolio-meta a:hover {
+	color: #fff !important;
+}
+.portfolio-meta .pictogram {
+    color: #fff;
+}
+
+.box-portfolio {
+	background: none !important;
+}
+
+/* ===[ Homepage Blog Styles ]===================================================== */
+
+.services p {
+	border-top: solid 1px #666;
+}
+
+.home-blog-post {
+	border: none;
+	background: #494949;
+	background: rgba(0, 0, 0, .1);
+}
+
+.home-blog-post:hover {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.home-blog-post h3 a { color: #fff }
+
+.home-blog-post .excerpt p {
+    border-top: solid 1px #666;
+}
+
+.blog-read-more {
+	border-top: solid 1px #666;
+}
+
+/* ===[ Blog Page Styles ]===================================================== */
+
+.blog-meta li a,
+.blog-meta li { color: #bbb }
+.blog-meta li a:hover { color: #fff }
+.blog-meta .pictogram { color: #fff ; }
+.post-share {
+    border-top: solid 1px #666;
+    color: #ddd !important;
+}
+.post-share a:hover { color: #fff !important }
+.post-share li a {
+	color: #aaa !important;
+}
+.share-title { color: #fff !important }
+
+.blog-post {
+	border-bottom: solid 1px #666;
+}
+
+.blog-navigation a { color: #fff; }
+.blog-navigation a:hover { color: #ddd }
+
+/* ===[ Footer Styles ]===================================================== */
+
+h3#comments {
+	border-bottom: solid 1px #666;
+}
+
+.blog-navigation {
+	border-bottom: solid 1px #666;
+}
+
+.comments {
+	background: #505050;
+}
+
+.comments li {
+	background: none !important;
+}
+
+.comment-text {
+	background: #444;
+	border: none;
+	color: #ddd;
+}
+
+.fn a {
+	color: #fff;
+}
+
+.vcard img {
+	background: #444;
+	border: solid 1px #444;
+}
+
+#respond input[type="text"], #respond textarea {
+    color: #fff;
+    border: none;
+    border-bottom: none;
+    background: #444 !important;
+}
+
+.reply a, #cancel-comment-reply a { color: #fff; }
+.reply a:hover, #cancel-comment-reply a:hover { color: #ddd; }
+
+.allowed {
+	color: #bbb;
+}
+
+/* ===[ Contact Form 7 Styles ]===================================================== */
+
+.wpcf7 input[type="text"] {
+	color: #ddd;
+	background: #444;
+}
+
+.wpcf7 textarea {
+	color:#ddd;
+	background: #444;
+}
+
+.wpcf7 input:focus, .wpcf7 textarea:focus {
+	background: #393939;
+}
+
+.wpcf7 p {
+	color: #fff;
+}
+
+
+/* ===[ Sidebar Styles ]===================================================== */
+
+#s {
+    background: #444;
+    color: #aaa;
+    border: solid 1px #444;
+}
+#s:focus, #s:hover { 
+	border: solid 1px #666;
+}
+
+.tab-wrapper li a {
+	background: #444;
+	color: #fff;
+	border-bottom: solid 1px #444;
+}
+
+#sidebar {
+	background: #555;
+}
+
+#sidebar .pane a:hover {
+	color: #fff;
+}
+
+.recent-posts h3 a {
+	color: #fff;
+}
+
+.pane a:hover {
+	color: #ddd !important;
+}
+
+.okay-recent-posts .recent-posts-thumb {
+	border: solid 1px #666;
+}
+
+.recent-posts-widget li, .recent-comments-widget li {
+	border-bottom: solid 1px #666;
+}
+
+.recent-comments-widget .comment-txt:hover {
+	color: #fff !important;
+}
+
+.tagcloud a {
+    background: #444;
+    color: #ddd;
+}
+.tagcloud a:before {
+    border-right: 10px solid #444;
+}
+.tagcloud a:hover { 
+	color: #fff;
+	background: #666;
+}
+
+.tagcloud a:hover:before {
+	border-right: 10px solid #666;
+}
+
+.recent-comments-widget .comment-avatar {
+	border: solid 1px #666;
+}
+
+.recent-comments-widget .comment-author a {
+	color: #fff;
+}
+
+.recent-comments-widget .comment-txt {
+	color: #ddd;
+}
+
+.tweet-list li {
+    border-bottom: solid 1px #666;
+}
+
+.widget h2, .portfolio-sidebar h2 {
+	background: #444;
+	color: #fff;
+}
+
+#sidebar .flex-control-nav li {
+	background: none;
+}
+
+/* ===[ Footer Styles ]===================================================== */
+
+.footer-text {
+    border-top: solid 1px #666;
+    border-bottom: solid 10px #444;
+}
+
+.footer-widgets {
+	border-top: solid 2px #666;
+}
+
+.footer-widget h2 {
+    border-bottom: solid 1px #666;
+    color: #fff;
+}
+
+.footer-text-left ul li a {
+    color: #fff;
+}
+.footer-text-left ul li a:hover { 
+	color: #ddd;
+}
+
+.footer-text-right {
+	color: #ddd;
+}
+.footer-text-right a {
+	color: #fff;
+}
+.footer-text-right a:hover {
+	color: #ddd;
+}
+
+/* ===[ Shortcode Styles ]===================================================== */
+
+.button.white, .button.gray, .button.black, .button.orange, .button.blue, .button.green, .button.purple, .button.pink, .wpcf7-submit {
+	-webkit-box-shadow: 0 1px 1px #444 !important;
+	-moz-box-shadow: 0 1px 1px #444 !important;
+	box-shadow: 0 1px 1px #444 !important;
+}
+
+.button.white:hover, .button.gray:hover, .button.black:hover, .button.orange:hover, .button.blue:hover, .button.green:hover, .button.purple:hover, .button.pink:hover, .wpcf7-submit:hover {
+	-webkit-box-shadow: 0 1px 1px #333 !important;
+	-moz-box-shadow: 0 1px 1px #333 !important;
+	box-shadow: 0 1px 1px #333 !important;
+}
+
+.button.black {
+	border-color: #4C4C4C #444 #333;
+}
+.button.black:hover {
+	border-color: #4C4C4C #444 #333;
+}
+
+.content .tabs {
+	border-bottom: solid 1px #666;	
+}
+
+.content .tabs .current, .content .tabs .current:hover, .content .tabs li.current a {
+	color: #fff !important;
+	background: #444;
+}
+
+.content .tabs li {
+	background: none !important;
+}
+
+.content .tabs li a {
+	color: #ddd;
+}
+
+.content .tabs li a:hover {
+	color: #fff;
+	background: #444;
+}
+
+.message {
+    color: #444;
+}
+.message div {
+	
+	border: none !important;
+}
+.message a { color: #888 }
+.message a:hover { color: #444; }

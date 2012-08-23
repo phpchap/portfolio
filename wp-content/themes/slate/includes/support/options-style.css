@@ -1,0 +1,114 @@
+/* Style for the Support Tab in Theme Options */
+
+@font-face {
+    font-family: 'EntypoRegular';
+    src: url('entypo/entypo-webfont.eot');
+    src: url('entypo/entypo-webfont.eot?#iefix') format('embedded-opentype'), url('entypo/entypo-webfont.woff') format('woff'), url('entypo/entypo-webfont.ttf') format('truetype'), url('entypo/entypo-webfont.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+.okay-text {
+	line-height: 20px;
+}  
+
+.entypo {
+	font-family: 'EntypoRegular' !important;
+	font-size: 38px !important;
+	height: 15px !important;
+	display: inline-block;
+	line-height: 10px;
+}
+
+.okay-buttons {
+	width:100%;
+	float: left;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+.okay-button {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font: 15px/12px 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 400; 
+	padding: 10px 40px 10px 10px;
+	border: 1px solid #DEDEDE;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #f5f5f5;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#f0f0f0'); /*  IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f0f0f0)); /*  WebKit */
+    background: -moz-linear-gradient(top,  #f9f9f9, #f0f0f0);
+    border-color: #dedede #d8d8d8 #d3d3d3;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    -moz-box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    box-shadow: 0 1px 1px #eaeaea, inset 0 1px 0 #fbfbfb;
+    margin-right: 12px;
+    box-sizing: initial;
+}
+
+.embed-themes {
+	clear: both;
+	float: left;
+}
+
+.okay-icon {
+	position: relative;
+}
+
+.video-button {
+	padding: 10px 40px 10px 10px;
+}
+
+.icon-video:after {
+	position: absolute;
+	right: -30px;
+	top:-1px;
+	content: "q";
+	font-family: 'EntypoRegular';
+	font-size: 38px !important;
+}
+
+.help-button {
+	padding: 10px 35px 10px 10px;
+}
+
+.icon-help:after {
+	position: absolute;
+	right: -25px;
+	top:-1px;
+	content: "l";
+	font-family: 'EntypoRegular';
+	font-size: 38px !important;
+}
+
+.support-button {
+	padding: 10px 36px 10px 10px;
+}
+
+.icon-support:after {
+	position: absolute;
+	right: -28px;
+	top:-1px;
+	content: "K";
+	font-family: 'EntypoRegular';
+	font-size: 38px !important;
+}
+
+.custom-button {
+	padding: 10px 35px 10px 10px;
+}
+
+.icon-custom:after {
+	position: absolute;
+	right: -25px;
+	top:-1px;
+	content: "&";
+	font-family: 'EntypoRegular';
+	font-size: 38px !important;
+}

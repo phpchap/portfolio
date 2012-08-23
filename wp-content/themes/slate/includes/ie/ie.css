@@ -1,0 +1,19 @@
+.tab-wrapper li a span {
+	display: none;
+}
+#sidebar .panes .pane {
+	margin-top: 12px !important;
+	float: left;
+}
+
+#blog-slider {
+	width: 980px;
+}
+
+.tooltip span {
+	display: none;
+}
+
+.vcard {
+	width: 100%;
+}

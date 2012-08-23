@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slate WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-16 01:29-0800\n"
+"PO-Revision-Date: 2012-08-16 01:29-0800\n"
+"Last-Translator: \n"
+"Language-Team: Okay Themes <m@mikemcalister.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../blog.php:65 ../../index.php:45
+msgid "Read more &rarr;"
+msgstr ""
+
+#: ../../blog.php:87 ../../index.php:75 ../../single.php:156
+#: ../../includes/widgets/recent-widgets.php:60
+msgid "No Comments"
+msgstr ""
+
+#: ../../blog.php:87 ../../index.php:75 ../../single.php:156
+#: ../../includes/widgets/recent-widgets.php:60
+msgid "1 Comment"
+msgstr ""
+
+#: ../../blog.php:87 ../../index.php:75 ../../single.php:156
+#: ../../includes/widgets/recent-widgets.php:60
+msgid "% Comments"
+msgstr ""
+
+#: ../../blog.php:91 ../../index.php:79 ../../single.php:160
+msgid "Share"
+msgstr ""
+
+#: ../../blog.php:93 ../../index.php:81
+#: ../../includes/widgets/recent-widgets.php:40
+msgid "Twitter"
+msgstr ""
+
+#: ../../blog.php:97 ../../index.php:85
+msgid "Facebook"
+msgstr ""
+
+#: ../../blog.php:101 ../../index.php:89
+msgid "Google+"
+msgstr ""
+
+#: ../../blog.php:110 ../../index.php:98
+msgid "&larr; Older Entries"
+msgstr ""
+
+#: ../../blog.php:111 ../../index.php:99
+msgid "Newer Entries &rarr;"
+msgstr ""
+
+#: ../../comments.php:16
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../../comments.php:38
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../../comments.php:38
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../../comments.php:45
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../../comments.php:53
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: ../../comments.php:53
+msgid "Log out of this account"
+msgstr ""
+
+#: ../../comments.php:53
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../../comments.php:59
+msgid "Name (required)"
+msgstr ""
+
+#: ../../comments.php:61
+msgid "Email (required)"
+msgstr ""
+
+#: ../../comments.php:63
+msgid "Website"
+msgstr ""
+
+#: ../../comments.php:69
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr ""
+
+#: ../../comments.php:71
+msgid "Submit Comment"
+msgstr ""
+
+#: ../../functions.php:125
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../../functions.php:127
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../../functions.php:127
+msgid "(Edit)"
+msgstr ""
+
+#: ../../functions.php:141
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../functions.php:155
+msgid "Services Text Columns"
+msgstr ""
+
+#: ../../functions.php:156
+msgid "This section is for the Services section on the homepage"
+msgstr ""
+
+#: ../../functions.php:162
+msgid "Testimonials"
+msgstr ""
+
+#: ../../functions.php:163
+msgid ""
+"Widgets in this area will be shown on the left side of the note area on the "
+"Homepage."
+msgstr ""
+
+#: ../../functions.php:169
+msgid "Sidebar"
+msgstr ""
+
+#: ../../functions.php:170
+msgid "Widgets in this area will be shown on the sidebar of all pages."
+msgstr ""
+
+#: ../../functions.php:178
+msgid "Footer"
+msgstr ""
+
+#: ../../functions.php:179
+msgid ""
+"Widgets in this area will be shown own on the left side of the footer of all "
+"pages."
+msgstr ""
+
+#: ../../header.php:20
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../../home.php:159
+msgid "Read More"
+msgstr ""
+
+#: ../../index.php:6
+msgid "Search results for"
+msgstr ""
+
+#: ../../index.php:8
+msgid "Tag"
+msgstr ""
+
+#: ../../index.php:10 ../../index.php:12 ../../index.php:14
+msgid "Archive"
+msgstr ""
+
+#: ../../index.php:16
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: ../../index.php:18
+msgid "Category"
+msgstr ""
+
+#: ../../index.php:20
+msgid "Posts by Author"
+msgstr ""
+
+#: ../../index.php:20
+msgid "posts by"
+msgstr ""
+
+#: ../../index.php:105
+msgid ""
+"Sorry, but the page you are looking for is no longer here. Please use the "
+"navigations or the search to find what what you are looking for."
+msgstr ""
+
+#: ../../options.php:68
+msgid "Basic Settings"
+msgstr ""
+
+#: ../../options.php:71
+msgid "Logo Upload"
+msgstr ""
+
+#: ../../options.php:72
+msgid "Upload your image to use in the header."
+msgstr ""
+
+#: ../../options.php:76
+msgid "Background Color"
+msgstr ""
+
+#: ../../options.php:77
+msgid "Choose a light or dark background."
+msgstr ""
+
+#: ../../options.php:82
+msgid "Link Color"
+msgstr ""
+
+#: ../../options.php:83
+msgid ""
+"Select the color you would like your links to be. The demo site uses #60BDDB."
+msgstr ""
+
+#: ../../options.php:88
+msgid "Homepage Large Slider Category"
+msgstr ""
+
+#: ../../options.php:89
+msgid "Please select the category to populate the slider on the homepage."
+msgstr ""
+
+#: ../../options.php:94
+msgid "Blog Category"
+msgstr ""
+
+#: ../../options.php:95
+msgid ""
+"Please select the category that contains your Blog posts. This category will "
+"populate the Blog page."
+msgstr ""
+
+#: ../../options.php:100
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../../options.php:101
+msgid ""
+"Please select the category that contains your Portfolio posts. This category "
+"will populate the Portfolio section of the homepage and the portfolio page."
+msgstr ""
+
+#: ../../options.php:106
+msgid "Hidden Header Text"
+msgstr ""
+
+#: ../../options.php:107
+msgid "Text for the hidden area in the header."
+msgstr ""
+
+#: ../../options.php:112
+msgid "Portfolio Page Text"
+msgstr ""
+
+#: ../../options.php:113
+msgid "Text for the area under the big image on the portfolio page."
+msgstr ""
+
+#: ../../options.php:118
+msgid "Tracking Code"
+msgstr ""
+
+#: ../../options.php:119
+msgid "Put your Google Analytics or other tracking code here."
+msgstr ""
+
+#: ../../options.php:126
+msgid "Homepage"
+msgstr ""
+
+#: ../../options.php:129
+msgid "Homepage Header Text"
+msgstr ""
+
+#: ../../options.php:130
+msgid "Text for the large centered titles on the homepage header."
+msgstr ""
+
+#: ../../options.php:135
+msgid "Services Title"
+msgstr ""
+
+#: ../../options.php:136
+msgid ""
+"Title for the ribbon above the Services (textbox) section on the homepage."
+msgstr ""
+
+#: ../../options.php:141
+msgid "Portfolio Title"
+msgstr ""
+
+#: ../../options.php:142
+msgid "Title for the ribbon above the Portfolio section on the homepage."
+msgstr ""
+
+#: ../../options.php:147
+msgid "Blog Title"
+msgstr ""
+
+#: ../../options.php:148
+msgid "Title for the ribbon above the Blog section on the homepage."
+msgstr ""
+
+#: ../../options.php:153
+msgid "Testimonials Title"
+msgstr ""
+
+#: ../../options.php:154
+msgid "Title for the ribbon above the Testimonials section on the homepage."
+msgstr ""
+
+#: ../../options.php:160
+msgid "Social Media Links"
+msgstr ""
+
+#: ../../options.php:163
+msgid "Twitter URL"
+msgstr ""
+
+#: ../../options.php:164
+msgid "Enter the full url to your Twitter profile."
+msgstr ""
+
+#: ../../options.php:169
+msgid "Google+ URL"
+msgstr ""
+
+#: ../../options.php:170
+msgid "Enter the full url to your Google+ profile."
+msgstr ""
+
+#: ../../options.php:175
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../../options.php:176
+msgid "Enter the full url to your Dribbble profile."
+msgstr ""
+
+#: ../../options.php:181
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../../options.php:182
+msgid "Enter the full url to your Vimeo profile."
+msgstr ""
+
+#: ../../options.php:187
+msgid "Facebook URL"
+msgstr ""
+
+#: ../../options.php:188
+msgid "Enter the full url to your Facebook profile."
+msgstr ""
+
+#: ../../options.php:193
+msgid "Flickr URL"
+msgstr ""
+
+#: ../../options.php:194
+msgid "Enter the full url to your Flickr profile."
+msgstr ""
+
+#: ../../options.php:199
+msgid "Tumblr URL"
+msgstr ""
+
+#: ../../options.php:200
+msgid "Enter the full url to your Tumblr profile."
+msgstr ""
+
+#: ../../options.php:205
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../../options.php:206
+msgid "Enter the full url to your LinkedIn profile."
+msgstr ""
+
+#: ../../options.php:216
+msgid "Custom CSS"
+msgstr ""
+
+#: ../../options.php:217
+msgid ""
+"If you would like to make styling modifications, you can do that here. Doing "
+"it here will prevent your modifications from being overwritten if/when you "
+"update the theme."
+msgstr ""
+
+#: ../../options.php:228
+msgid "Theme Documentation & Support"
+msgstr ""
+
+#: ../../searchform.php:3
+msgid "Search Site"
+msgstr ""
+
+#: ../../single.php:80
+msgid "Project Details"
+msgstr ""
+
+#: ../../includes/shortcodes/friendly-shortcode-buttons.php:123
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: ../../includes/widgets/recent-portfolio.php:91
+msgid "Title:"
+msgstr ""
+
+#: ../../includes/widgets/recent-portfolio.php:95
+msgid "Number to Show:"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:15
+#: ../../includes/widgets/recent-widgets.php:17
+msgid "Okay Recent Posts Widget"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:35
+msgid "Recent Posts"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:36
+msgid "Popular Posts"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:37
+msgid "Popular Tags"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:38
+msgid "Comments"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:193
+msgid "Recent Posts Category"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:204
+msgid "Recent Posts Count"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:209
+msgid "Comment Count"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:214
+msgid "Twitter Username"
+msgstr ""
+
+#: ../../includes/widgets/recent-widgets.php:219
+msgid "Tweet Count"
+msgstr ""
+
+#: ../../includes/widgets/text-column.php:15
+msgid "Okay Text Column Widget"
+msgstr ""
+
+#: ../../includes/widgets/text-column.php:17
+msgid "Okay Text Column"
+msgstr ""
+
+#: ../../includes/widgets/text-column.php:66
+msgid "Column Title"
+msgstr ""
+
+#: ../../includes/widgets/text-column.php:71
+msgid "Column Title Link"
+msgstr ""
+
+#: ../../includes/widgets/text-column.php:76
+msgid "Column Number"
+msgstr ""
+
+#: ../../includes/widgets/text-column.php:81
+msgid "Column Content"
+msgstr ""
+
+#: ../../includes/widgets/twitter.php:16
+msgid "Grab your latest tweets"
+msgstr ""
+
+#: ../../includes/widgets/twitter.php:18
+msgid "Okay Twitter Widget"
+msgstr ""

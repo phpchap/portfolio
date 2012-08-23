@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('includes/fonts/pictograms/modernpics-webfont.eot');
+    src: url('includes/fonts/pictograms/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('includes/fonts/pictograms/modernpics-webfont.woff') format('woff'),
+         url('includes/fonts/pictograms/modernpics-webfont.ttf') format('truetype'),
+         url('includes/fonts/pictograms/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.pictogram {
+	font-family: 'ModernPictogramsNormal';
+	color: #999;
+	font-size: 32px;
+	line-height: 32px;
+	letter-spacing: 14px;
+	display: inline;
+}
+.mceContentBody h1, .mceContentBody h2, .mceContentBody h3, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 {
+    font-size: 100%;
+    font-family: 'Droid Serif', Georgia, serif;
+    font-weight: normal;
+    color: #4c4c4c;
+}
+
+.mceContentBody h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+.mceContentBody h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5,
+.mceContentBody h6 {
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+.mceContentBody h3 { font-size: 18px }
+.mceContentBody h4 { font-size: 16px }
+.mceContentBody h5 { font-size: 14px }
+.mceContentBody h6 {
+    font-size: 13px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+
+.mceContentBody {
+	font: 14px/24px Georgia, serif;
+	background: #fff;
+	overflow-x: hidden;
+	height: 100%;
+	color: #555;
+	width: 670px;
+}
+
+.mceContentBody p {
+	margin-bottom: 15px 
+}
+
+.mceContentBody blockquote p:before {
+    content: "b";
+    font-size: 32px;
+    line-height: 20px !important;
+    font-style: normal;
+    display: block;
+    font-family: 'ModernPictogramsNormal';
+    padding: 6px 12px 0px 0;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    border-radius: 300px;
+    position: absolute;
+    left: 0;
+    text-transform: none;
+}
+
+.mceContentBody blockquote p {
+	position: relative;
+	font-family: 'Droid Serif', serif;
+	color: #999;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 26px;
+	padding-left: 45px;
+	text-transform: uppercase;
+}
+
+.mceContentBody ul {
+	margin: 0 0 20px 0;
+}
+
+.mceContentBody li {
+	background: url(images/arrow-bullet.png) no-repeat left 9px;
+	padding-left: 14px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.mceContentBody ol {
+	 margin: 0 0 20px 0;
+}
+.mceContentBody ol li {
+	list-style-type: decimal;
+	background: none;
+	padding-left: 0px;
+	margin-bottom: 5px;
+	margin-left: 14px;
+}
+
+.intro {
+	color: #979797;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 15px;
+	border-top: solid 1px #EEE;
+	border-bottom: solid 1px #EEE;
+	padding: 10px 0;
+}
+
+.highlight {
+	background: #fff666;
+	color: #222;
+	width: auto;
+	display: inline;
+	padding: 2px 3px;
+	font-weight: normal;
+}
+
+hr {
+	margin: 20px 0 30px;
+	border: 0;
+	border-bottom: 1px dotted #ddd;
+	height: 1px;
+}

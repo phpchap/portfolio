@@ -1,0 +1,73 @@
+#tabs #insert {
+	text-decoration: none;
+}
+
+#button-dialog { }
+#button-dialog div{ padding: 5px 0; height: 20px; display: block !important;}
+#button-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 80px; }
+#button-dialog select, #button-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#button-dialog select { width: 112px; }
+#button-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#layout-dialog { }
+#layout-dialog div{ padding: 5px 0; height: 20px; display: block !important;}
+#layout-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 80px; }
+#layout-dialog select, #layout-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#layout-dialog select { width: 112px; }
+#layout-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#tooltip-dialog { }
+#tooltip-dialog div{ padding: 5px 0; height: 20px; display: block !important;}
+#tooltip-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 72px; }
+#tooltip-dialog select, #layout-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#tooltip-dialog select { width: 112px; }
+#tooltip-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#toggle-dialog { }
+#toggle-dialog div{ padding: 5px 0; height: 20px; display: block !important;}
+#toggle-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 72px; }
+#toggle-dialog select, #layout-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#toggle-dialog select { width: 112px; }
+#toggle-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#message-dialog { }
+#message-dialog div{ padding: 5px 0; height: 20px; display: block !important;}
+#message-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 72px; }
+#message-dialog select, #layout-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#message-dialog select { width: 112px; }
+#message-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#tab-dialog { }
+#tab-dialog div{ padding: 5px 0; height: 20px; display: block !important;}
+#tab-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 72px; }
+#tab-dialog select, #layout-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#tab-dialog select { width: 112px; }
+#tab-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}
+
+#tabs ul {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+#tabs ul li {
+	display:inline;
+	float:left;
+	margin-right:7px;
+	margin-bottom: 5px;	
+}
+
+#tabs .tab div { display: block !important; }
+
+#tabs .tab { 
+	margin-top:15px;
+	float:left;
+}
+
+#tabs li a {
+	text-decoration: none;
+}
+
+#tabs li.active a {
+   font-weight:bold;
+}
+
